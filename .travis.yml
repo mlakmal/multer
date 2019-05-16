@@ -7,3 +7,17 @@ node_js:
   - "6"
   - "8"
   - "10"
+
+deploy:
+  provider: script
+  script: "cp .npmrc.template $HOME/.npmrc && npm publish"
+  skip_cleanup: true
+  on:
+    tags: true
+
+notifications:
+  email:
+    recipients:
+    - mlakmal@outlook.com
+    on_success: change
+    on_failure: always
