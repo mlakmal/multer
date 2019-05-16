@@ -1,2 +1,2 @@
 always-auth=true
-//registry.npmjs.org/:_authToken=:_authToken=${API_TOKEN}
+//registry.npmjs.org/:_authToken=${API_TOKEN}
