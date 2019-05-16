@@ -1,0 +1,3 @@
+always-auth=true
+registry=https://npmjs.com/package/mlakmal/multer/npm/
+//npmjs.com/package/mlakmal/multer/npm/:_authToken=${API_TOKEN}
